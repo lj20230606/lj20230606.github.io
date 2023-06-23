@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>小刘的个人网站</title>
+    <style>
+      /* 全局样式 */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      /* 导航栏样式 */
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        overflow: hidden;
+      }
+      
+      /* 导航链接样式 */
+      .navbar a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* 导航链接鼠标悬停样式 */
+      .navbar a:hover {
+        background-color: #555;
+      }
+      
+      /* 头部样式 */
+      .header {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      /* 主要内容样式 */
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      
+      /* 子栏目样式 */
+      .sub-section {
+        width: 30%;
+        margin-bottom: 20px;
+      }
+      
+      /* 子栏目标题样式 */
+      .sub-section h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      /* 子栏目图片样式 */
+      .sub-section img {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      
+      /* 子栏目列表样式 */
+      .sub-section ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      
+      /* 子栏目列表项样式 */
+      .sub-section li {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      /* 表单样式 */
+      form {
+        margin-bottom: 20px;
+      }
+      
+      /* 表单输入样式 */
+      form label, form input {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      /* 表单提交按钮样式 */
+      form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      /* 表单提交按钮鼠标悬停样式 */
+      form input[type="submit"]:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <div class="navbar">
+      <a href="#">主页</a>
+      <a href="#about">简介</a>
+      <a href="#calendar">日历</a>
+      <a href="#photos">照片</a>
+    </div>
+    
+    <!-- 头部 -->
+    <div class="header">
+      <img src="https://imgc.cc/2023/06/22/649453aed6068.jpg" alt="个人照片"width="200" height="200">
+            <h2>小 刘</h2>
+      <p>联系方式：微信 -Aries418，DISCORD:Aries#2683，坐标 shanghai</p>
+    </div>
+    
+    <!-- 主要内容 -->
+    <div class="main">
+      <!-- 简介 -->
+      <div id="about" class="sub-section">
+            <h2>个人简介</h2>
+        <div class="container">
+  <img src="https://imgc.cc/2023/06/22/64945a4d5bb1c.jpg" 
+width="200" height="400">
+  <p>我是小刘，性别女，白羊座，ESFJ，有一个修狗，她叫ANNE。我从事的行业和互联网毫无关系，但也想了解一下这个领域。我平时喜欢拍照记录生活，喜欢旅游，喜欢各地美食，喜欢喝美式。 </p >
+</div>
+   
+
+    <!-- 日历 -->
+    <section id="calendar">
+      <h2>日历</h2>
+      <div class="calendar">
+  <img src="https://imgc.cc/2023/06/23/6494735c106bf.jpg" 
+width="300" height="800">
+        <p>今天是2023年6月23日，多云，但手机自带的天气预报显示有50%降水量。</p >
+      </div>
+    </section>
+
+    <!-- 照片 -->
+    <section id="photos">
+      <h2>照片</h2>
+      <div class="photos">
+        <nav class="photo-nav">
+          <ul>
+ 
+        </nav>
+        <div class="album" id="life">
+          <h3>生活</h3>
+          <img src="https://imgc.cc/2023/06/23/649508955f0dc.jpg" alt="云层"width="300" height="400">
+          
+          <img src="https://imgc.cc/2023/06/23/649508955a022.jpg" alt="瀑布"width="300" height="400">
+          
+          <img src="https://imgc.cc/2023/06/23/6495089c6195e.jpg" alt="落日"width="300" height="400">
+          
+        </div>
+        <div class="album" id="food">
+          <h3>美食</h3>
+          <img src="https://imgc.cc/2023/06/23/649508a41f46b.jpg" alt="烤肉"width="300" height="400">
+          
+          <img src="https://imgc.cc/2023/06/23/649508abcda9a.jpg" alt="苏式面"width="300" height="400">
+          
+          <img src="https://imgc.cc/2023/06/23/64950ab35c891.jpg" alt="铁锅炖"width="300" height="400">
+          
+        </div>
+        <div class="album" id="pets">
+          <h3>宠物</h3>
+           <img src="https://imgc.cc/2023/06/23/6494764b286f1.jpg" 
+width="200" height="400">
+            <img src="https://imgc.cc/2023/06/23/649476006adc6.jpg" 
+width="200" height="400">
+           <img src="https://imgc.cc/2023/06/23/6494760037e2d.jpg" 
+width="200" height="400">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
